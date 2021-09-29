@@ -55,21 +55,21 @@ namespace Ejercicio2___Guía4_MM200149
             this.label1.Location = new System.Drawing.Point(252, 47);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(348, 37);
+            this.label1.Size = new System.Drawing.Size(355, 37);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Bienvenido al ejercicio 2 guía 4";
+            this.label1.Text = "Bienvenido al ejercicio 2 guía 4!";
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(340, 131);
+            this.button1.Location = new System.Drawing.Point(311, 128);
             this.button1.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(146, 59);
+            this.button1.Size = new System.Drawing.Size(208, 59);
             this.button1.TabIndex = 3;
-            this.button1.Text = "Salir";
+            this.button1.Text = "Inscribir alumno";
             this.button1.UseVisualStyleBackColor = false;
             // 
             // FormPrincipal
