@@ -43,6 +43,7 @@ namespace Ejercicio2___Guía4_MM200149
             this.btnregresar.TabIndex = 0;
             this.btnregresar.Text = "Regresar";
             this.btnregresar.UseVisualStyleBackColor = false;
+            this.btnregresar.Click += new System.EventHandler(this.btnregresar_Click);
             // 
             // frmdiseñobasico
             // 

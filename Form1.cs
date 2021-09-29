@@ -28,5 +28,12 @@ namespace Ejercicio2___Guía4_MM200149
 
 
         }
+
+        private void btnregresar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            FormPrincipal frmprincipal = new FormPrincipal();
+            frmprincipal.Visible = true;
+        }
     }
 }
