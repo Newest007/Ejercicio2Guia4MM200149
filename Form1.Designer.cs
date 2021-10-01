@@ -64,7 +64,7 @@ namespace Ejercicio2___Guía4_MM200149
 
         #endregion
 
-        private System.Windows.Forms.Button btnregresar;
+        protected System.Windows.Forms.Button btnregresar;
     }
 }
 

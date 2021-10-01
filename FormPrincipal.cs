@@ -21,5 +21,13 @@ namespace Ejercicio2___Guía4_MM200149
         {
             Application.Exit();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            InscribirAlumno alumno = new InscribirAlumno();
+            this.Visible = false;
+            alumno.Visible = true;
+        }
     }
 }

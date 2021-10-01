@@ -43,9 +43,57 @@ namespace Ejercicio2___Guía4_MM200149
             set { carrera = value; }
         }
 
+        protected string materiasincritas;
+        public string MateriasIncritas
+        {
+            get { return materiasincritas; }
+            set { materiasincritas = value; }
+        }
+
+        protected double notas;
+        public double Notas
+        {
+            get { return notas; }
+            set { notas = value; }
+        }
+
+        protected double cum;
+        public double Cum
+        {
+            get { return cum; }
+            set { cum = value; }
+        }
 
 
     }
+
+    class Ingenieria:Universitario
+    {
+
+        protected string nombreproyecto;
+        public string NombreProyecto
+        {
+            get { return nombreproyecto; }
+            set { nombreproyecto = value; }
+        }
+
+        protected string totalhoras;
+        public string TotalHoras
+        {
+            get { return totalhoras; }
+            set { totalhoras = value; }
+        }
+
+        protected string horascompletadas;
+        public string HorasCompletadas
+        {
+            get { return horascompletadas; }
+            set { horascompletadas = value; }
+        }
+
+
+    }
+
 
 
 }
