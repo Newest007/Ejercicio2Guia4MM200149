@@ -87,6 +87,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Properties\DataSources\Estudiante.datasource" />
+    <None Include="Properties\DataSources\Ingenieria.datasource" />
+    <None Include="Properties\DataSources\InscribirAlumno.datasource" />
+    <None Include="Properties\DataSources\Persona.datasource" />
+    <None Include="Properties\DataSources\Universitario.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

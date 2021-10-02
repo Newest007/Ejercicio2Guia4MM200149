@@ -29,6 +29,7 @@ namespace Ejercicio2___Guía4_MM200149
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtnota3 = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
@@ -65,11 +66,34 @@ namespace Ejercicio2___Guía4_MM200149
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label16 = new System.Windows.Forms.Label();
+            this.universitarioBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.universitarioBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.universitarioBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.ingenieriaBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.nombreDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.apellidoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.numCarnetDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nivelEstudiosDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nombreUniversidadDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.carreraDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.materiasIncritasDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nota1DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nota2DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nota3DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cumDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.promedioDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nombreProyectoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.totalHorasDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.horasCompletadasDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvalumno)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.universitarioBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.universitarioBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.universitarioBindingSource2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ingenieriaBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // btnregresar
@@ -382,10 +406,27 @@ namespace Ejercicio2___Guía4_MM200149
             // 
             // dtgvalumno
             // 
-            this.dtgvalumno.AllowUserToOrderColumns = true;
+            this.dtgvalumno.AutoGenerateColumns = false;
             this.dtgvalumno.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dtgvalumno.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dtgvalumno.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvalumno.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.nombreDataGridViewTextBoxColumn,
+            this.apellidoDataGridViewTextBoxColumn,
+            this.numCarnetDataGridViewTextBoxColumn,
+            this.nivelEstudiosDataGridViewTextBoxColumn,
+            this.nombreUniversidadDataGridViewTextBoxColumn,
+            this.carreraDataGridViewTextBoxColumn,
+            this.materiasIncritasDataGridViewTextBoxColumn,
+            this.nota1DataGridViewTextBoxColumn,
+            this.nota2DataGridViewTextBoxColumn,
+            this.nota3DataGridViewTextBoxColumn,
+            this.cumDataGridViewTextBoxColumn,
+            this.promedioDataGridViewTextBoxColumn,
+            this.nombreProyectoDataGridViewTextBoxColumn,
+            this.totalHorasDataGridViewTextBoxColumn,
+            this.horasCompletadasDataGridViewTextBoxColumn});
+            this.dtgvalumno.DataSource = this.ingenieriaBindingSource;
             this.dtgvalumno.Location = new System.Drawing.Point(12, 516);
             this.dtgvalumno.Name = "dtgvalumno";
             this.dtgvalumno.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
@@ -434,11 +475,131 @@ namespace Ejercicio2___Guía4_MM200149
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Segoe Print", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(215, 102);
+            this.label16.Location = new System.Drawing.Point(222, 57);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(508, 37);
             this.label16.TabIndex = 0;
             this.label16.Text = "Universidad con más estudiantes de Ingenieria";
+            // 
+            // universitarioBindingSource1
+            // 
+            this.universitarioBindingSource1.DataSource = typeof(Ejercicio2___Guía4_MM200149.Universitario);
+            // 
+            // universitarioBindingSource
+            // 
+            this.universitarioBindingSource.DataSource = typeof(Ejercicio2___Guía4_MM200149.Universitario);
+            // 
+            // universitarioBindingSource2
+            // 
+            this.universitarioBindingSource2.DataSource = typeof(Ejercicio2___Guía4_MM200149.Universitario);
+            // 
+            // ingenieriaBindingSource
+            // 
+            this.ingenieriaBindingSource.DataSource = typeof(Ejercicio2___Guía4_MM200149.Ingenieria);
+            // 
+            // nombreDataGridViewTextBoxColumn
+            // 
+            this.nombreDataGridViewTextBoxColumn.DataPropertyName = "Nombre";
+            this.nombreDataGridViewTextBoxColumn.HeaderText = "Nombre";
+            this.nombreDataGridViewTextBoxColumn.Name = "nombreDataGridViewTextBoxColumn";
+            // 
+            // apellidoDataGridViewTextBoxColumn
+            // 
+            this.apellidoDataGridViewTextBoxColumn.DataPropertyName = "Apellido";
+            this.apellidoDataGridViewTextBoxColumn.HeaderText = "Apellido";
+            this.apellidoDataGridViewTextBoxColumn.Name = "apellidoDataGridViewTextBoxColumn";
+            this.apellidoDataGridViewTextBoxColumn.Width = 102;
+            // 
+            // numCarnetDataGridViewTextBoxColumn
+            // 
+            this.numCarnetDataGridViewTextBoxColumn.DataPropertyName = "NumCarnet";
+            this.numCarnetDataGridViewTextBoxColumn.HeaderText = "NumCarnet";
+            this.numCarnetDataGridViewTextBoxColumn.Name = "numCarnetDataGridViewTextBoxColumn";
+            this.numCarnetDataGridViewTextBoxColumn.Width = 130;
+            // 
+            // nivelEstudiosDataGridViewTextBoxColumn
+            // 
+            this.nivelEstudiosDataGridViewTextBoxColumn.DataPropertyName = "NivelEstudios";
+            this.nivelEstudiosDataGridViewTextBoxColumn.HeaderText = "NivelEstudios";
+            this.nivelEstudiosDataGridViewTextBoxColumn.Name = "nivelEstudiosDataGridViewTextBoxColumn";
+            this.nivelEstudiosDataGridViewTextBoxColumn.Width = 144;
+            // 
+            // nombreUniversidadDataGridViewTextBoxColumn
+            // 
+            this.nombreUniversidadDataGridViewTextBoxColumn.DataPropertyName = "NombreUniversidad";
+            this.nombreUniversidadDataGridViewTextBoxColumn.HeaderText = "NombreUniversidad";
+            this.nombreUniversidadDataGridViewTextBoxColumn.Name = "nombreUniversidadDataGridViewTextBoxColumn";
+            this.nombreUniversidadDataGridViewTextBoxColumn.Width = 196;
+            // 
+            // carreraDataGridViewTextBoxColumn
+            // 
+            this.carreraDataGridViewTextBoxColumn.DataPropertyName = "Carrera";
+            this.carreraDataGridViewTextBoxColumn.HeaderText = "Carrera";
+            this.carreraDataGridViewTextBoxColumn.Name = "carreraDataGridViewTextBoxColumn";
+            this.carreraDataGridViewTextBoxColumn.Width = 98;
+            // 
+            // materiasIncritasDataGridViewTextBoxColumn
+            // 
+            this.materiasIncritasDataGridViewTextBoxColumn.DataPropertyName = "MateriasIncritas";
+            this.materiasIncritasDataGridViewTextBoxColumn.HeaderText = "MateriasIncritas";
+            this.materiasIncritasDataGridViewTextBoxColumn.Name = "materiasIncritasDataGridViewTextBoxColumn";
+            this.materiasIncritasDataGridViewTextBoxColumn.Width = 165;
+            // 
+            // nota1DataGridViewTextBoxColumn
+            // 
+            this.nota1DataGridViewTextBoxColumn.DataPropertyName = "Nota1";
+            this.nota1DataGridViewTextBoxColumn.HeaderText = "Nota1";
+            this.nota1DataGridViewTextBoxColumn.Name = "nota1DataGridViewTextBoxColumn";
+            this.nota1DataGridViewTextBoxColumn.Width = 87;
+            // 
+            // nota2DataGridViewTextBoxColumn
+            // 
+            this.nota2DataGridViewTextBoxColumn.DataPropertyName = "Nota2";
+            this.nota2DataGridViewTextBoxColumn.HeaderText = "Nota2";
+            this.nota2DataGridViewTextBoxColumn.Name = "nota2DataGridViewTextBoxColumn";
+            this.nota2DataGridViewTextBoxColumn.Width = 87;
+            // 
+            // nota3DataGridViewTextBoxColumn
+            // 
+            this.nota3DataGridViewTextBoxColumn.DataPropertyName = "Nota3";
+            this.nota3DataGridViewTextBoxColumn.HeaderText = "Nota3";
+            this.nota3DataGridViewTextBoxColumn.Name = "nota3DataGridViewTextBoxColumn";
+            this.nota3DataGridViewTextBoxColumn.Width = 87;
+            // 
+            // cumDataGridViewTextBoxColumn
+            // 
+            this.cumDataGridViewTextBoxColumn.DataPropertyName = "Cum";
+            this.cumDataGridViewTextBoxColumn.HeaderText = "Cum";
+            this.cumDataGridViewTextBoxColumn.Name = "cumDataGridViewTextBoxColumn";
+            this.cumDataGridViewTextBoxColumn.Width = 74;
+            // 
+            // promedioDataGridViewTextBoxColumn
+            // 
+            this.promedioDataGridViewTextBoxColumn.DataPropertyName = "Promedio";
+            this.promedioDataGridViewTextBoxColumn.HeaderText = "Promedio";
+            this.promedioDataGridViewTextBoxColumn.Name = "promedioDataGridViewTextBoxColumn";
+            this.promedioDataGridViewTextBoxColumn.Width = 114;
+            // 
+            // nombreProyectoDataGridViewTextBoxColumn
+            // 
+            this.nombreProyectoDataGridViewTextBoxColumn.DataPropertyName = "NombreProyecto";
+            this.nombreProyectoDataGridViewTextBoxColumn.HeaderText = "NombreProyecto";
+            this.nombreProyectoDataGridViewTextBoxColumn.Name = "nombreProyectoDataGridViewTextBoxColumn";
+            this.nombreProyectoDataGridViewTextBoxColumn.Width = 169;
+            // 
+            // totalHorasDataGridViewTextBoxColumn
+            // 
+            this.totalHorasDataGridViewTextBoxColumn.DataPropertyName = "TotalHoras";
+            this.totalHorasDataGridViewTextBoxColumn.HeaderText = "TotalHoras";
+            this.totalHorasDataGridViewTextBoxColumn.Name = "totalHorasDataGridViewTextBoxColumn";
+            this.totalHorasDataGridViewTextBoxColumn.Width = 124;
+            // 
+            // horasCompletadasDataGridViewTextBoxColumn
+            // 
+            this.horasCompletadasDataGridViewTextBoxColumn.DataPropertyName = "HorasCompletadas";
+            this.horasCompletadasDataGridViewTextBoxColumn.HeaderText = "HorasCompletadas";
+            this.horasCompletadasDataGridViewTextBoxColumn.Name = "horasCompletadasDataGridViewTextBoxColumn";
+            this.horasCompletadasDataGridViewTextBoxColumn.Width = 185;
             // 
             // InscribirAlumno
             // 
@@ -460,6 +621,10 @@ namespace Ejercicio2___Guía4_MM200149
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.universitarioBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.universitarioBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.universitarioBindingSource2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ingenieriaBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -502,5 +667,24 @@ namespace Ejercicio2___Guía4_MM200149
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.BindingSource universitarioBindingSource;
+        private System.Windows.Forms.BindingSource universitarioBindingSource1;
+        private System.Windows.Forms.BindingSource universitarioBindingSource2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nombreDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn apellidoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn numCarnetDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nivelEstudiosDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nombreUniversidadDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn carreraDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn materiasIncritasDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nota1DataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nota2DataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nota3DataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cumDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn promedioDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nombreProyectoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn totalHorasDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn horasCompletadasDataGridViewTextBoxColumn;
+        private System.Windows.Forms.BindingSource ingenieriaBindingSource;
     }
 }
