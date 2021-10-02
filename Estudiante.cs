@@ -50,11 +50,25 @@ namespace Ejercicio2___Guía4_MM200149
             set { materiasincritas = value; }
         }
 
-        protected double notas;
-        public double Notas
+        protected double nota1;
+        public double Nota1
         {
-            get { return notas; }
-            set { notas = value; }
+            get { return nota1; }
+            set { nota1 = value; }
+        }
+
+        protected double nota2;
+        public double Nota2
+        {
+            get { return nota2; }
+            set { nota2 = value; }
+        }
+
+        protected double nota3;
+        public double Nota3
+        {
+            get { return nota3; }
+            set { nota3 = value; }
         }
 
         protected double cum;
