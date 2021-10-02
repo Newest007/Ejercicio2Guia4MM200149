@@ -6,27 +6,34 @@ using System.Threading.Tasks;
 
 namespace Ejercicio2___Guía4_MM200149
 {
-    class Estudiante: Persona
+    class Ingenieria : Universitario
     {
 
-        protected string numcarnet;
-        public string NumCarnet
+        protected string nombreproyecto;
+        public string NombreProyecto
         {
-            get { return numcarnet; }
-            set { numcarnet = value; }
+            get { return nombreproyecto; }
+            set { nombreproyecto = value; }
         }
 
-        protected string nvlestudios;
-        public string NlvEstudios
+        protected string totalhoras;
+        public string TotalHoras
         {
-            get { return nvlestudios; }
-            set { nvlestudios = value; }
+            get { return totalhoras; }
+            set { totalhoras = value; }
+        }
+
+        protected string horascompletadas;
+        public string HorasCompletadas
+        {
+            get { return horascompletadas; }
+            set { horascompletadas = value; }
         }
 
 
     }
 
-    class Universitario:Estudiante
+    class Universitario: Estudiante
     {
         protected string nombreuniversidad;
         
@@ -78,36 +85,57 @@ namespace Ejercicio2___Guía4_MM200149
             set { cum = value; }
         }
 
+        protected double promedio;
+        public double Promedio
+        {
+            get { return promedio; }
+            set { promedio = value; }
+        }
+
 
     }
 
-    class Ingenieria:Universitario
+
+    class Estudiante : Persona
     {
 
-        protected string nombreproyecto;
-        public string NombreProyecto
+        protected string numcarnet;
+        public string NumCarnet
         {
-            get { return nombreproyecto; }
-            set { nombreproyecto = value; }
+            get { return numcarnet; }
+            set { numcarnet = value; }
         }
 
-        protected string totalhoras;
-        public string TotalHoras
+        protected string nvlestudios;
+        public string NivelEstudios
         {
-            get { return totalhoras; }
-            set { totalhoras = value; }
-        }
-
-        protected string horascompletadas;
-        public string HorasCompletadas
-        {
-            get { return horascompletadas; }
-            set { horascompletadas = value; }
+            get { return nvlestudios; }
+            set { nvlestudios = value; }
         }
 
 
     }
 
+
+    class Persona
+    {
+
+        protected string nombre;
+        public string Nombre
+        {
+            get { return nombre; }
+            set { nombre = value; }
+        }
+
+        protected string apellido;
+        public string Apellido
+        {
+            get { return apellido; }
+            set { apellido = value; }
+        }
+
+
+    }
 
 
 }

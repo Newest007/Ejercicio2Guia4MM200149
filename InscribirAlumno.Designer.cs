@@ -74,7 +74,7 @@ namespace Ejercicio2___Guía4_MM200149
             // 
             // btnregresar
             // 
-            this.btnregresar.Location = new System.Drawing.Point(967, 667);
+            this.btnregresar.Location = new System.Drawing.Point(967, 648);
             // 
             // groupBox1
             // 
@@ -109,13 +109,13 @@ namespace Ejercicio2___Guía4_MM200149
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Location = new System.Drawing.Point(6, 60);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(881, 483);
+            this.groupBox1.Size = new System.Drawing.Size(881, 450);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             // 
             // txtnota3
             // 
-            this.txtnota3.Location = new System.Drawing.Point(597, 222);
+            this.txtnota3.Location = new System.Drawing.Point(597, 208);
             this.txtnota3.Name = "txtnota3";
             this.txtnota3.Size = new System.Drawing.Size(85, 36);
             this.txtnota3.TabIndex = 32;
@@ -123,15 +123,16 @@ namespace Ejercicio2___Guía4_MM200149
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(466, 227);
+            this.label15.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(466, 215);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(109, 28);
+            this.label15.Size = new System.Drawing.Size(86, 21);
             this.label15.TabIndex = 31;
             this.label15.Text = "Nota Mat. 3";
             // 
             // txtnota2
             // 
-            this.txtnota2.Location = new System.Drawing.Point(597, 179);
+            this.txtnota2.Location = new System.Drawing.Point(597, 168);
             this.txtnota2.Name = "txtnota2";
             this.txtnota2.Size = new System.Drawing.Size(85, 36);
             this.txtnota2.TabIndex = 30;
@@ -139,9 +140,10 @@ namespace Ejercicio2___Guía4_MM200149
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(465, 184);
+            this.label14.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(466, 176);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(109, 28);
+            this.label14.Size = new System.Drawing.Size(86, 21);
             this.label14.TabIndex = 29;
             this.label14.Text = "Nota Mat. 2";
             // 
@@ -150,7 +152,7 @@ namespace Ejercicio2___Guía4_MM200149
             this.button1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(189, 406);
+            this.button1.Location = new System.Drawing.Point(205, 368);
             this.button1.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(181, 50);
@@ -161,14 +163,14 @@ namespace Ejercicio2___Guía4_MM200149
             // 
             // txtcumplidas
             // 
-            this.txtcumplidas.Location = new System.Drawing.Point(597, 424);
+            this.txtcumplidas.Location = new System.Drawing.Point(597, 389);
             this.txtcumplidas.Name = "txtcumplidas";
             this.txtcumplidas.Size = new System.Drawing.Size(85, 36);
             this.txtcumplidas.TabIndex = 27;
             // 
             // txtcumplir
             // 
-            this.txtcumplir.Location = new System.Drawing.Point(597, 367);
+            this.txtcumplir.Location = new System.Drawing.Point(597, 337);
             this.txtcumplir.Name = "txtcumplir";
             this.txtcumplir.Size = new System.Drawing.Size(85, 36);
             this.txtcumplir.TabIndex = 26;
@@ -176,24 +178,26 @@ namespace Ejercicio2___Guía4_MM200149
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(429, 426);
+            this.label13.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(443, 397);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(145, 28);
+            this.label13.Size = new System.Drawing.Size(109, 21);
             this.label13.TabIndex = 25;
             this.label13.Text = "Horas cumplidas";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(433, 371);
+            this.label12.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(445, 345);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(141, 28);
+            this.label12.Size = new System.Drawing.Size(107, 21);
             this.label12.TabIndex = 24;
             this.label12.Text = "Horas a cumplir";
             // 
             // txtproyecto
             // 
-            this.txtproyecto.Location = new System.Drawing.Point(597, 296);
+            this.txtproyecto.Location = new System.Drawing.Point(597, 260);
             this.txtproyecto.Multiline = true;
             this.txtproyecto.Name = "txtproyecto";
             this.txtproyecto.Size = new System.Drawing.Size(170, 46);
@@ -202,15 +206,16 @@ namespace Ejercicio2___Guía4_MM200149
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(424, 304);
+            this.label11.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(436, 271);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(150, 28);
+            this.label11.Size = new System.Drawing.Size(116, 21);
             this.label11.TabIndex = 22;
             this.label11.Text = "Nombre Proyecto";
             // 
             // txtcum
             // 
-            this.txtcum.Location = new System.Drawing.Point(773, 179);
+            this.txtcum.Location = new System.Drawing.Point(773, 169);
             this.txtcum.Name = "txtcum";
             this.txtcum.Size = new System.Drawing.Size(87, 36);
             this.txtcum.TabIndex = 21;
@@ -218,15 +223,16 @@ namespace Ejercicio2___Guía4_MM200149
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(717, 183);
+            this.label10.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(717, 176);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(50, 28);
+            this.label10.Size = new System.Drawing.Size(38, 21);
             this.label10.TabIndex = 20;
             this.label10.Text = "CUM";
             // 
             // txtnota1
             // 
-            this.txtnota1.Location = new System.Drawing.Point(597, 136);
+            this.txtnota1.Location = new System.Drawing.Point(597, 128);
             this.txtnota1.Name = "txtnota1";
             this.txtnota1.Size = new System.Drawing.Size(85, 36);
             this.txtnota1.TabIndex = 19;
@@ -234,9 +240,10 @@ namespace Ejercicio2___Guía4_MM200149
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(465, 139);
+            this.label9.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(466, 136);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(109, 28);
+            this.label9.Size = new System.Drawing.Size(86, 21);
             this.label9.TabIndex = 18;
             this.label9.Text = "Nota Mat. 1";
             // 
@@ -251,15 +258,16 @@ namespace Ejercicio2___Guía4_MM200149
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(428, 64);
+            this.label8.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(441, 62);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(146, 28);
+            this.label8.Size = new System.Drawing.Size(111, 21);
             this.label8.TabIndex = 16;
             this.label8.Text = "Materias Incritas";
             // 
             // txtcarrera
             // 
-            this.txtcarrera.Location = new System.Drawing.Point(216, 341);
+            this.txtcarrera.Location = new System.Drawing.Point(216, 304);
             this.txtcarrera.Name = "txtcarrera";
             this.txtcarrera.Size = new System.Drawing.Size(170, 36);
             this.txtcarrera.TabIndex = 15;
@@ -267,15 +275,16 @@ namespace Ejercicio2___Guía4_MM200149
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(117, 344);
+            this.label7.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(117, 310);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(73, 28);
+            this.label7.Size = new System.Drawing.Size(63, 23);
             this.label7.TabIndex = 14;
             this.label7.Text = "Carrera";
             // 
             // txtuniversidad
             // 
-            this.txtuniversidad.Location = new System.Drawing.Point(216, 280);
+            this.txtuniversidad.Location = new System.Drawing.Point(216, 255);
             this.txtuniversidad.Name = "txtuniversidad";
             this.txtuniversidad.Size = new System.Drawing.Size(170, 36);
             this.txtuniversidad.TabIndex = 13;
@@ -283,30 +292,31 @@ namespace Ejercicio2___Guía4_MM200149
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(13, 285);
+            this.label6.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(34, 260);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(177, 28);
+            this.label6.Size = new System.Drawing.Size(146, 23);
             this.label6.TabIndex = 12;
             this.label6.Text = "Nombre Universidad";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // txtestudios
             // 
-            this.txtestudios.Location = new System.Drawing.Point(216, 222);
+            this.txtestudios.Location = new System.Drawing.Point(216, 206);
             this.txtestudios.Name = "txtestudios";
             this.txtestudios.Size = new System.Drawing.Size(170, 36);
             this.txtestudios.TabIndex = 11;
             // 
             // txtcarnet
             // 
-            this.txtcarnet.Location = new System.Drawing.Point(216, 171);
+            this.txtcarnet.Location = new System.Drawing.Point(216, 156);
             this.txtcarnet.Name = "txtcarnet";
             this.txtcarnet.Size = new System.Drawing.Size(170, 36);
             this.txtcarnet.TabIndex = 10;
             // 
             // txtapellido
             // 
-            this.txtapellido.Location = new System.Drawing.Point(216, 114);
+            this.txtapellido.Location = new System.Drawing.Point(216, 106);
             this.txtapellido.Name = "txtapellido";
             this.txtapellido.Size = new System.Drawing.Size(170, 36);
             this.txtapellido.TabIndex = 9;
@@ -322,36 +332,40 @@ namespace Ejercicio2___Guía4_MM200149
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(43, 225);
+            this.label5.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(61, 212);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(147, 28);
+            this.label5.Size = new System.Drawing.Size(119, 23);
             this.label5.TabIndex = 7;
             this.label5.Text = "Nivel de estudios";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(106, 117);
+            this.label4.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(112, 120);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(84, 28);
+            this.label4.Size = new System.Drawing.Size(68, 23);
             this.label4.TabIndex = 6;
             this.label4.Text = "Apellidos";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(29, 171);
+            this.label3.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(46, 164);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(161, 28);
+            this.label3.Size = new System.Drawing.Size(134, 23);
             this.label3.TabIndex = 5;
             this.label3.Text = "Numero de Carnet";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(108, 62);
+            this.label2.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(113, 62);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 28);
+            this.label2.Size = new System.Drawing.Size(67, 23);
             this.label2.TabIndex = 4;
             this.label2.Text = "Nombres";
             // 
@@ -368,12 +382,16 @@ namespace Ejercicio2___Guía4_MM200149
             // 
             // dtgvalumno
             // 
+            this.dtgvalumno.AllowUserToOrderColumns = true;
+            this.dtgvalumno.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dtgvalumno.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dtgvalumno.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvalumno.Location = new System.Drawing.Point(12, 560);
+            this.dtgvalumno.Location = new System.Drawing.Point(12, 516);
             this.dtgvalumno.Name = "dtgvalumno";
-            this.dtgvalumno.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToFirstHeader;
+            this.dtgvalumno.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             this.dtgvalumno.Size = new System.Drawing.Size(863, 136);
             this.dtgvalumno.TabIndex = 28;
+            this.dtgvalumno.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvalumno_CellContentClick);
             this.dtgvalumno.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvalumno_CellDoubleClick);
             this.dtgvalumno.DoubleClick += new System.EventHandler(this.dtgvalumno_DoubleClick);
             this.dtgvalumno.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.dtgvalumno_MouseDoubleClick);
@@ -385,7 +403,7 @@ namespace Ejercicio2___Guía4_MM200149
             this.tabControl1.Location = new System.Drawing.Point(61, 3);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(904, 749);
+            this.tabControl1.Size = new System.Drawing.Size(900, 702);
             this.tabControl1.TabIndex = 29;
             // 
             // tabPage1
@@ -396,7 +414,7 @@ namespace Ejercicio2___Guía4_MM200149
             this.tabPage1.Location = new System.Drawing.Point(4, 37);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(896, 708);
+            this.tabPage1.Size = new System.Drawing.Size(892, 661);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Regis. Alumno";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -407,7 +425,7 @@ namespace Ejercicio2___Guía4_MM200149
             this.tabPage2.Location = new System.Drawing.Point(4, 37);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(896, 708);
+            this.tabPage2.Size = new System.Drawing.Size(892, 661);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Consultar datos";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -415,9 +433,10 @@ namespace Ejercicio2___Guía4_MM200149
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(331, 40);
+            this.label16.Font = new System.Drawing.Font("Segoe Print", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(215, 102);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(386, 28);
+            this.label16.Size = new System.Drawing.Size(508, 37);
             this.label16.TabIndex = 0;
             this.label16.Text = "Universidad con más estudiantes de Ingenieria";
             // 
@@ -425,7 +444,7 @@ namespace Ejercicio2___Guía4_MM200149
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1113, 764);
+            this.ClientSize = new System.Drawing.Size(1113, 731);
             this.Controls.Add(this.tabControl1);
             this.Margin = new System.Windows.Forms.Padding(8, 13, 8, 13);
             this.Name = "InscribirAlumno";

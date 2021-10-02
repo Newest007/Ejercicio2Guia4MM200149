@@ -34,12 +34,12 @@ namespace Ejercicio2___Guía4_MM200149
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            double promedio;
             Ingenieria ing = new Ingenieria();
             ing.Nombre = txtnombre.Text;
             ing.Apellido = txtapellido.Text;
             ing.NumCarnet = txtcarnet.Text;
-            ing.NlvEstudios = txtestudios.Text;
+            ing.NivelEstudios = txtestudios.Text;
             ing.NombreUniversidad = txtuniversidad.Text;
             ing.Carrera = txtcarrera.Text;
             ing.MateriasIncritas = txtmaterias.Text;
@@ -50,6 +50,9 @@ namespace Ejercicio2___Guía4_MM200149
             ing.NombreProyecto = txtproyecto.Text;
             ing.TotalHoras = txtcumplir.Text;
             ing.HorasCompletadas = txtcumplidas.Text;
+
+            promedio = (ing.Nota1 + ing.Nota2 + ing.Nota3) / 3;
+            ing.Promedio = promedio;
 
             if(edit_indice >-1)
             {
@@ -115,7 +118,7 @@ namespace Ejercicio2___Guía4_MM200149
             txtnombre.Text = ing.Nombre;
             txtapellido.Text = ing.Apellido;
             txtcarnet.Text = ing.NumCarnet;
-            txtestudios.Text = ing.NlvEstudios;
+            txtestudios.Text = ing.NivelEstudios;
             txtuniversidad.Text = ing.NombreUniversidad;
             txtcarrera.Text = ing.Carrera;
             txtmaterias.Text = ing.MateriasIncritas;
@@ -126,6 +129,11 @@ namespace Ejercicio2___Guía4_MM200149
             txtproyecto.Text = ing.NombreProyecto;
             txtcumplir.Text = ing.TotalHoras;
             txtcumplidas.Text = ing.HorasCompletadas;
+
+        }
+
+        private void dtgvalumno_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
         }
     }

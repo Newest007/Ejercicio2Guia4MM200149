@@ -40,7 +40,7 @@ namespace Ejercicio2___Guía4_MM200149
             this.btnsalir.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnsalir.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnsalir.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnsalir.Location = new System.Drawing.Point(260, 297);
+            this.btnsalir.Location = new System.Drawing.Point(265, 254);
             this.btnsalir.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.btnsalir.Name = "btnsalir";
             this.btnsalir.Size = new System.Drawing.Size(146, 59);
@@ -75,12 +75,12 @@ namespace Ejercicio2___Guía4_MM200149
             this.button1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(163, 164);
+            this.button1.Location = new System.Drawing.Point(224, 164);
             this.button1.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(348, 59);
+            this.button1.Size = new System.Drawing.Size(227, 59);
             this.button1.TabIndex = 7;
-            this.button1.Text = "Inscribir alumno de Ingenieria";
+            this.button1.Text = "Añadir datos";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
